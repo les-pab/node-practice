@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Oren",
+    "last_name": "De Rye Barrett",
+    "email": "oderyebarrett0@deliciousdays.com",
+    "gender": "Male",
+    "ip_address": "99.197.215.169"
+  },
+  {
+    "id": 2,
+    "first_name": "Martie",
+    "last_name": "Wabersich",
+    "email": "mwabersich1@blinklist.com",
+    "gender": "Female",
+    "ip_address": "93.118.59.194"
+  },
+  {
+    "id": 3,
+    "first_name": "Rafael",
+    "last_name": "Pearcy",
+    "email": "rpearcy2@google.com.br",
+    "gender": "Male",
+    "ip_address": "155.190.222.4"
+  },
+  {
+    "id": 4,
+    "first_name": "Kendrick",
+    "last_name": "Ioannidis",
+    "email": "kioannidis3@bing.com",
+    "gender": "Male",
+    "ip_address": "225.212.104.155"
+  },
+  {
+    "id": 5,
+    "first_name": "Onfre",
+    "last_name": "Gavrielli",
+    "email": "ogavrielli4@privacy.gov.au",
+    "gender": "Male",
+    "ip_address": "88.206.223.24"
+  },
+  {
+    "id": 6,
+    "first_name": "Meir",
+    "last_name": "Hammer",
+    "email": "mhammer5@whitehouse.gov",
+    "gender": "Male",
+    "ip_address": "237.44.163.89"
+  },
+  {
+    "id": 7,
+    "first_name": "Hayes",
+    "last_name": "Orts",
+    "email": "horts6@vinaora.com",
+    "gender": "Male",
+    "ip_address": "95.77.128.184"
+  },
+  {
+    "id": 8,
+    "first_name": "Matthus",
+    "last_name": "Sollett",
+    "email": "msollett7@sourceforge.net",
+    "gender": "Male",
+    "ip_address": "254.220.78.157"
+  },
+  {
+    "id": 9,
+    "first_name": "Moyra",
+    "last_name": "Rapaport",
+    "email": "mrapaport8@wufoo.com",
+    "gender": "Genderqueer",
+    "ip_address": "149.200.181.65"
+  },
+  {
+    "id": 10,
+    "first_name": "Edna",
+    "last_name": "Stanyer",
+    "email": "estanyer9@apple.com",
+    "gender": "Female",
+    "ip_address": "21.208.22.168"
+  }
+]

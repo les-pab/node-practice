@@ -1,19 +1,18 @@
 /**
- * The fs module provides a lot of very useful functionaltiy for interacting with
+ * The fs module provides a lot of very useful functionality for interacting with
  * the file system in a way modeled on standard POSIX functions.
  *
  * All the system operations have synchronous, callback, and
  * promise-based forms, and are accessible using both CommonJS syntax
  * and ES6 Modules (ESM)
  */
-
 const fs = require('fs');
 const path = require('path');
 
 /**
  * The readFile() method asynchronously reads the entire contents of a file, that has a callback
  * function with two arguments (err, data), where data is the contents of the file and err is an
- * errror.
+ * error.
  *
  * Another argument for the readFile is the encoding, if no encoding is specified then the raw
  * buffer is returned.

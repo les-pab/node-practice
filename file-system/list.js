@@ -1,5 +1,5 @@
 /**
- * The fs module provides a lot of very useful functionaltiy for interacting with
+ * The fs module provides a lot of very useful functionality for interacting with
  * the file system in a way modeled on standard POSIX functions.
  *
  * All the system operations have synchronous, callback, and
@@ -10,7 +10,7 @@
 const fs = require('fs');
 
 /**
- * The readdir() method reads the contents of the directory asyncrhonously, that has a callback
+ * The readdir() method reads the contents of the directory asynchronously, that has a callback
  * function with two arguments (err, files) where files is an array of the names of the files
  * in the directory excluding '.' and '..', while err is an error.
  */
@@ -24,7 +24,7 @@ console.log('Reading files...');
 
 /**
  * * NOTE: Similar to the readdir() method, the readdirSync() method reads the contents of the
- * * directory syncrhonously, blocking the single Node.js thread.
+ * * directory synchronously, blocking the single Node.js thread.
  */
 const files = fs.readdirSync('./sampledir');
 console.log(`${files} \n`);

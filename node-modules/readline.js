@@ -38,7 +38,7 @@ rl.question('What is a name of a real person?: ', (answer) => {
       rl.close();
     }
 
-    person.sayings.push(saying.trim());
+    sayings.push(saying.trim());
 
     rl.setPrompt(`What else would ${name} say? (Type 'exit' to leave): `);
     rl.prompt();
