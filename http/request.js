@@ -1,5 +1,5 @@
 /**
- * The HTTPS module provids a way of making Node.js transfer data over
+ * The HTTPS module provides a way of making Node.js transfer data over
  * HTTP TLS/SSL protocol, which is the secure HTTP protocol.
  */
 const https = require('https');
@@ -12,6 +12,17 @@ const options = {
   method: 'GET',
 };
 
+/**
+ * The request(options[, callback]) || request(url[, options][,callback]) method makes a request
+ * to a secure web server.
+ *
+ * * Options can be an object, a string or a URL object. If options is a string, it is
+ * * automatically parsed with new URL(). If it is a URL object, it will be automatically converted
+ * * to an ordinary option object.
+ *
+ * * request() returns an instance of the http.ClientRequest class. The ClientRequest instance is a
+ * * writable stream.
+ */
 const req = https.request(options, (res) => {
   let responseBody = '';
 
