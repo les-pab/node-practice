@@ -1,8 +1,12 @@
-'use strict'
-const { EventEmitter } = require('events')
+'use strict';
+const { EventEmitter } = require('events');
 
-process.nextTick(console.log, 'passed!')
+process.nextTick(console.log, 'passed!');
 
-const ee = new EventEmitter()
+const ee = new EventEmitter();
 
-ee.emit('error', Error('timeout'))
+ee.on('error', (err) => {
+  console.log(`Got an error: ${err.message}`);
+});
+
+ee.emit('error', Error('timeout'));

@@ -3,21 +3,25 @@ const print = (err, contents) => {
   else console.log(contents )
 }
 
-const opA = (cb) => {
+const opA = async (cb) => {
   setTimeout(() => {
     cb(null, 'A')
   }, 500)
 }
 
-const opB = (cb) => {
+const opB = async (cb) => {
   setTimeout(() => {
     cb(null, 'B')
   }, 250)
 }
 
-const opC = (cb) => {
+const opC = async (cb) => {
   setTimeout(() => {
     cb(null, 'C')
   }, 125)
 }
+
+opA(print)
+opB(print)
+opC(print)
 
